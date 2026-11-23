@@ -4,7 +4,7 @@
 
 <br><br>
 
-**Des scripts de configuration qui font gagner du temps : Linux, réseau, serveurs web et DevOps.**
+**Des configurations pour gagner du temps sur Linux, les réseaux, les serveurs web et le DevOps.**
 <br>
 Copiez, adaptez, exécutez. Chaque ligne est expliquée.
 
@@ -24,70 +24,78 @@ Copiez, adaptez, exécutez. Chaque ligne est expliquée.
 
 ## 🎯 Ce que vous trouverez ici
 
-Des scripts et des fichiers de configuration conçus pour **vous faire gagner des heures**, pas pour faire joli. Chacun s'utilise en quelques minutes et se comprend entièrement :
+Des scripts pratiques et des fichiers de configuration conçus pour **vous faire gagner du temps**, simplifier l'administration système et vous aider à comprendre ce que vous exécutez.
 
-- 🌐 **Réseau** : règles de pare-feu, vérifications DNS et réseau, configuration VPN
-- 🖥️ **Serveurs web** : configurations Nginx, SSL/TLS, hôtes virtuels, redirections
-- 🔒 **Sécurité des serveurs** : durcissement SSH, mises à jour, surveillance des logs
-- 💾 **Exploitation** : sauvegardes automatiques, vérifications de santé, alertes
-- ⚙️ **DevOps** : Docker, CI/CD et automatisation (au fur et à mesure que je les construis)
+- 🌐 **Réseaux** : règles de pare-feu, configurations DNS, diagnostics réseau et mise en place de VPN.
+- 🖥️ **Serveurs web** : configurations Nginx, SSL/TLS, hôtes virtuels et reverse proxies.
+- 🔒 **Sécurité des serveurs** : sécurisation SSH, mises à jour de sécurité et surveillance des journaux.
+- 💾 **Opérations** : sauvegardes automatisées, vérifications de santé et supervision.
+- ⚙️ **DevOps** : Docker, CI/CD et automatisation de l'infrastructure (au fur et à mesure de l'évolution du projet).
 
-> **Prérequis :** tous les scripts et configurations visent des serveurs **Linux**
-> (Debian/Ubuntu, sauf indication contraire dans l'en-tête du script).
-> Vous n'avez pas besoin de Linux sur votre ordinateur : un VPS ou une machine
-> virtuelle suffit, depuis Windows, macOS ou Linux.
+> **Prérequis :** Les scripts et configurations ciblent principalement les serveurs Linux (Debian/Ubuntu, sauf indication contraire dans la ressource). Vous n'avez pas besoin d'utiliser Linux sur votre ordinateur personnel : un VPS ou une machine virtuelle suffit, que vous soyez sous Windows, macOS ou Linux.
 
-**Comment chaque script est livré :**
+**Ce que contient chaque ressource :**
 
-| Ce que vous recevez | Ce que cela vous fait gagner |
+| Ce que vous obtenez | Ce que cela vous permet de faire |
 |---|---|
-| ✅ Un script ou une configuration qui fonctionne | Vous partez d'une base fonctionnelle, pas d'un fichier vide |
-| 💬 Des commentaires sur chaque ligne importante | Vous savez quoi modifier et quoi laisser tel quel |
-| 🧪 Le résultat attendu | Vous pouvez vérifier que ça a marché |
-| 🔧 Comment annuler | Vous pouvez revenir en arrière en toute sécurité si quelque chose se passe mal |
-| 🐧 La distribution et la version testées | Vous savez si le script fonctionne sur votre serveur avant de le lancer |
+| ✅ Des scripts et configurations fonctionnels | Partir d'une base opérationnelle plutôt que d'un fichier vide |
+| 💬 Des commentaires explicatifs | Comprendre ce qu'il faut modifier et ce qu'il faut laisser intact |
+| 🧪 Des résultats attendus | Vérifier que la configuration fonctionne |
+| 🔧 Des instructions de retour arrière | Savoir comment annuler les modifications en toute sécurité |
+| 🐧 Une distribution et une version testées | Vérifier la compatibilité avant toute exécution |
 
-## 🧰 Sujets
+**À venir :** Des packs premium de scripts et de configurations seront proposés sous forme de produits numériques.
 
-**Maintenant :**
-- 🐧 **Linux** : utilisateurs, permissions, services, processus, disques, sauvegardes, scripts Bash
-- 🌐 **Réseau** : adressage IP et sous-réseaux, DNS, HTTP et HTTPS, pare-feu, VPN
-- 🔒 **Sécurité des serveurs** : SSH, durcissement, logs
+## 🧰 Domaines techniques
+
+**Actuellement :**
+
+- 🐧 **Linux** : utilisateurs, permissions, services, processus, stockage, sauvegardes et scripts Bash.
+- 🌐 **Réseaux** : adressage IP, sous-réseaux, DNS, HTTP/HTTPS, routage, pare-feu et VPN.
+- 🔒 **Sécurité des serveurs** : SSH, durcissement système et analyse des journaux.
 
 **Prochainement :**
-- 🖥️ **Serveurs web et edge** : Nginx, Cloudflare (DNS, proxy, CDN, SSL)
-- 🗄️ **Bases de données et services** : PostgreSQL, Redis, serveurs mail
-- ☁️ **Cloud et DevOps** : AWS, Git, Docker, CI/CD, Terraform, Ansible
-- 📈 **Exploitation** : supervision, haute disponibilité, Kubernetes
+
+- 🖥️ **Serveurs web et Edge** : Nginx, Cloudflare (DNS, proxy, CDN et SSL/TLS).
+- 🗄️ **Bases de données et services** : PostgreSQL, Redis et serveurs de messagerie.
+- ☁️ **Cloud et DevOps** : AWS, Git, Docker, CI/CD, Terraform et Ansible.
+- 📈 **Opérations d'infrastructure** : supervision, haute disponibilité et Kubernetes.
 
 ## 📘 Apprendre et pratiquer
 
-Un script est meilleur quand on le comprend. En plus des configurations, je publie :
+Comprendre le fonctionnement des systèmes est tout aussi important que savoir les configurer.
 
-- 📘 **Des leçons** : chaque notion expliquée avec le *pourquoi*, un exemple réel et son usage en administration serveur
-- 🧪 **Des travaux pratiques** : les commandes à lancer, le résultat attendu et une panne volontaire à réparer
-- 🛠️ **Des installations réelles** que vous pouvez reproduire sur votre propre serveur
+### 📖 Articles sur Dev.to
 
-## 🤝 Services
+Chaque article aborde son sujet à travers trois niveaux de compréhension :
 
-Besoin d'aide sur un vrai serveur ? Je peux le mettre en place, le sécuriser ou le dépanner, et vous expliquer ce que j'ai fait et pourquoi.
+- 🟢 **Débutant :** comprendre les fondamentaux, les concepts essentiels et leur fonctionnement.
+- 🟡 **Intermédiaire :** découvrir les applications pratiques et comprendre comment les concepts sont utilisés dans l'administration système et réseau.
+- 🔴 **Avancé :** approfondir les mécanismes internes, les détails techniques et les processus sous-jacents.
 
-| Service | Ce que cela couvre |
-|---|---|
-| 🖥️ **Mise en place de serveur** | VPS Linux, serveur web, SSL, domaine et DNS |
-| 🔒 **Durcissement** | SSH, pare-feu, mises à jour, protection de base contre les intrusions |
-| 💾 **Sauvegardes et supervision** | Sauvegardes automatiques, alertes, vérifications de santé |
-| 🔧 **Dépannage** | Site en panne, service qui échoue, serveur lent, mauvaise configuration |
-| ⚙️ **Scripts et automatisation** | Scripts Bash sur mesure pour les tâches d'administration répétitives |
+Chaque niveau s'appuie sur le précédent pour passer de la compréhension d'un concept à l'exploration de son fonctionnement interne.
 
-📩 Pour travailler ensemble, contactez-moi via [Dev.to](https://dev.to/heavylock).
+### 🧪 Ressources pratiques sur GitHub
+
+- Des laboratoires pratiques avec les commandes et les résultats attendus.
+- Des scénarios de dépannage et des pannes volontaires à analyser.
+- Des configurations et des environnements reproductibles à expérimenter sur votre propre serveur Linux.
+
+L'objectif est simple : comprendre les concepts, les mettre en pratique et apprendre à résoudre les problèmes lorsqu'ils surviennent.
 
 ## 📝 Lire et suivre
 
-Des articles gratuits sur [Dev.to](https://dev.to/heavylock). Les guides, checklists et packs de configuration arrivent bientôt.
+Envie d'explorer Linux, les réseaux, l'administration des serveurs et le DevOps ?
+
+- 📖 **Dev.to** : [Lire mes articles](https://dev.to/heavylock).
+- 💻 **GitHub** : explorer les dépôts, scripts, configurations et laboratoires pratiques.
+
+De nouveaux articles et ressources techniques sont ajoutés au fur et à mesure de l'évolution de HEAVYLOCK.
+
+---
 
 <div align="center">
 
-*Construis des verrous. Apprends comment ils cèdent.*
+**Build locks. Learn how they break!**
 
 </div>
