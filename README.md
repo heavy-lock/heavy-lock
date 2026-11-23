@@ -24,70 +24,78 @@ Copy, adapt, run. Every line is explained.
 
 ## 🎯 What you'll find here
 
-Scripts and configuration files built to **save you hours**, not to look pretty. Each one takes minutes to use and can be fully understood:
+Practical scripts and configuration files built to **save you time**, simplify system administration and help you understand what you're running.
 
-- 🌐 **Networking**: firewall rules, DNS and network checks, VPN setup
-- 🖥️ **Web servers**: Nginx configurations, SSL/TLS, virtual hosts, redirects
-- 🔒 **Server security**: SSH hardening, updates, log monitoring
-- 💾 **Operations**: automatic backups, health checks, alerts
-- ⚙️ **DevOps**: Docker, CI/CD and automation (as I build them)
+- 🌐 **Networking**: firewall rules, DNS configurations, network diagnostics and VPN setup.
+- 🖥️ **Web servers**: Nginx configurations, SSL/TLS, virtual hosts and reverse proxies.
+- 🔒 **Server security**: SSH hardening, security updates and log monitoring.
+- 💾 **Operations**: automated backups, health checks and monitoring.
+- ⚙️ **DevOps**: Docker, CI/CD and infrastructure automation (as the project evolves).
 
-> **Requirements:** all scripts and configurations target **Linux** servers
-> (Debian/Ubuntu, unless stated otherwise in the script header).
-> You don't need Linux on your own computer: a VPS or a virtual machine
-> is enough, from Windows, macOS or Linux.
+> **Requirements:** Scripts and configurations primarily target Linux servers (Debian/Ubuntu, unless stated otherwise in the resource). You don't need Linux on your personal computer: a VPS or virtual machine is enough, whether you're using Windows, macOS or Linux.
 
-**How each script is delivered:**
+**How each resource is delivered:**
 
-| What you get | What it saves you |
+| What you get | What it helps you do |
 |---|---|
-| ✅ A working script or configuration | You start from a working base, not an empty file |
-| 💬 Comments on every important line | You know what to change and what to leave alone |
-| 🧪 The expected result | You can check that it worked |
-| 🔧 How to undo it | You can safely roll back if something goes wrong |
-| 🐧 The tested distribution and version | You know whether the script works on your server before running it |
+| ✅ Working scripts and configurations | Start from a functional base instead of an empty file |
+| 💬 Explanatory comments | Understand what to change and what to leave alone |
+| 🧪 Expected results | Verify that the configuration works |
+| 🔧 Rollback instructions | Know how to safely undo changes |
+| 🐧 Tested distribution and version | Check compatibility before running anything |
+
+**Coming soon:** Premium script and configuration packs will be available as digital products.
 
 ## 🧰 Topics
 
 **Now:**
-- 🐧 **Linux**: users, permissions, services, processes, disks, backups, Bash scripts
-- 🌐 **Networking**: IP addressing and subnets, DNS, HTTP and HTTPS, firewalls, VPN
-- 🔒 **Server security**: SSH, hardening, logs
+
+- 🐧 **Linux**: users, permissions, services, processes, storage, backups and Bash scripting.
+- 🌐 **Networking**: IP addressing, subnetting, DNS, HTTP/HTTPS, routing, firewalls and VPN.
+- 🔒 **Server security**: SSH, system hardening and log analysis.
 
 **Coming next:**
-- 🖥️ **Web and edge servers**: Nginx, Cloudflare (DNS, proxy, CDN, SSL)
-- 🗄️ **Databases and services**: PostgreSQL, Redis, mail servers
-- ☁️ **Cloud and DevOps**: AWS, Git, Docker, CI/CD, Terraform, Ansible
-- 📈 **Operations**: monitoring, high availability, Kubernetes
+
+- 🖥️ **Web and edge servers**: Nginx, Cloudflare (DNS, proxy, CDN and SSL/TLS).
+- 🗄️ **Databases and services**: PostgreSQL, Redis and mail servers.
+- ☁️ **Cloud and DevOps**: AWS, Git, Docker, CI/CD, Terraform and Ansible.
+- 📈 **Infrastructure operations**: monitoring, high availability and Kubernetes.
 
 ## 📘 Learn and practice
 
-A script is better when you understand it. Besides the configurations, I publish:
+Understanding how systems work is just as important as knowing how to configure them.
 
-- 📘 **Lessons**: each concept explained with the *why*, a real example and how it's used in server administration
-- 🧪 **Hands-on labs**: the commands to run, the expected result and a deliberate failure to fix
-- 🛠️ **Real setups** you can reproduce on your own server
+### 📖 Articles on Dev.to
 
-## 🤝 Services
+Every article explores its topic through three levels of understanding:
 
-Need help on a real server? I can set it up, secure it or troubleshoot it, and explain what I did and why.
+- 🟢 **Beginner:** Understand the fundamentals, key concepts and how things work.
+- 🟡 **Intermediate:** Explore practical applications and how concepts are used in real-world system and network administration.
+- 🔴 **Advanced:** Go deeper into internal mechanisms, technical details and underlying processes.
 
-| Service | What it covers |
-|---|---|
-| 🖥️ **Server setup** | Linux VPS, web server, SSL, domain and DNS |
-| 🔒 **Hardening** | SSH, firewall, updates, basic intrusion protection |
-| 💾 **Backups and monitoring** | Automatic backups, alerts, health checks |
-| 🔧 **Troubleshooting** | Site down, failing service, slow server, misconfiguration |
-| ⚙️ **Scripts and automation** | Custom Bash scripts for repetitive administration tasks |
+Each level builds on the previous one, taking you from understanding a concept to exploring how it works under the hood.
 
-📩 To work together, contact me via [Dev.to](https://dev.to/heavylock).
+### 🧪 Practical resources on GitHub
+
+- Hands-on labs with commands and expected results.
+- Troubleshooting scenarios and deliberate failures to investigate.
+- Reproducible configurations and setups you can experiment with on your own Linux server.
+
+The goal is simple: understand the concepts, apply them and learn how to troubleshoot when something goes wrong.
 
 ## 📝 Read and follow
 
-Free articles on [Dev.to](https://dev.to/heavylock). Guides, checklists and configuration packs are coming soon.
+Want to explore Linux, networking, server administration and DevOps?
+
+- 📖 **Dev.to**: [Read my articles](https://dev.to/heavylock).
+- 💻 **GitHub**: Explore repositories, scripts, configurations and practical labs.
+
+New articles and technical resources are added as HEAVYLOCK grows.
+
+---
 
 <div align="center">
 
-*Build locks. Learn how they break!*
+**Build locks. Learn how they break!**
 
 </div>
