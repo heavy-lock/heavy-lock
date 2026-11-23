@@ -44,7 +44,11 @@ Practical scripts and configuration files built to **save you time**, simplify s
 | 🔧 Rollback instructions | Know how to safely undo changes |
 | 🐧 Tested distribution and version | Check compatibility before running anything |
 
-**Coming soon:** Premium script and configuration packs will be available as digital products.
+**Coming soon: Premium production-ready resources**
+
+Premium packs of scripts and configurations designed for real-world production environments: administration task automation, deployments, server hardening, service management and infrastructure operations.
+
+Each pack will include technical documentation, configuration instructions and usage recommendations.
 
 ## 🧰 Topics
 
