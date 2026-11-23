@@ -44,7 +44,11 @@ Des scripts pratiques et des fichiers de configuration conçus pour **vous faire
 | 🔧 Des instructions de retour arrière | Savoir comment annuler les modifications en toute sécurité |
 | 🐧 Une distribution et une version testées | Vérifier la compatibilité avant toute exécution |
 
-**À venir :** Des packs premium de scripts et de configurations seront proposés sous forme de produits numériques.
+**À venir : Ressources premium prêtes pour la production**
+
+Des packs premium de scripts et de configurations conçus pour des environnements de production réels : automatisation des tâches d'administration, déploiements, sécurisation des serveurs, gestion des services et opérations d'infrastructure.
+
+Chaque pack sera accompagné de documentation technique, d'instructions de configuration et de recommandations d'utilisation.
 
 ## 🧰 Domaines techniques
 
