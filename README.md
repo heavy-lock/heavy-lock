@@ -16,8 +16,6 @@ Copy, adapt, run. Every line is explained.
 
 <br><br>
 
-🇬🇧 **English** · 🇫🇷 [Français](README.fr.md)
-
 </div>
 
 ---
@@ -85,6 +83,8 @@ Each level builds on the previous one, taking you from understanding a concept t
 - Troubleshooting scenarios and deliberate failures to investigate.
 - Reproducible configurations and setups you can experiment with on your own Linux server.
 
+**Each lab will be available in English and French**, so you can choose the language you prefer.
+
 The goal is simple: understand the concepts, apply them and learn how to troubleshoot when something goes wrong.
 
 ## 📝 Read and follow
@@ -95,11 +95,3 @@ Want to explore Linux, networking, server administration and DevOps?
 - 💻 **GitHub**: Explore repositories, scripts, configurations and practical labs.
 
 New articles and technical resources are added as HEAVYLOCK grows.
-
----
-
-<div align="center">
-
-**Build locks. Learn how they break!**
-
-</div>
