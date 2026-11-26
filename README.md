@@ -4,9 +4,9 @@
 
 <br><br>
 
-**Time-saving configuration scripts for Linux, networking, web servers and DevOps.**
+**Hands-on labs for Linux, networking, web servers, security and DevOps.**
 <br>
-Copy, adapt, run. Every line is explained.
+Learn by practicing: understand what you configure, break it on purpose, fix it without panic.
 
 <br>
 
@@ -22,31 +22,34 @@ Copy, adapt, run. Every line is explained.
 
 ## 🎯 What you'll find here
 
-Practical scripts and configuration files built to **save you time**, simplify system administration and help you understand what you're running.
+Practice labs to learn how systems really work: know what you are doing when you configure a server, and learn to troubleshoot calmly when something goes wrong.
 
-- 🌐 **Networking**: firewall rules, DNS configurations, network diagnostics and VPN setup.
-- 🖥️ **Web servers**: Nginx configurations, SSL/TLS, virtual hosts and reverse proxies.
-- 🔒 **Server security**: SSH hardening, security updates and log monitoring.
-- 💾 **Operations**: automated backups, health checks and monitoring.
-- ⚙️ **DevOps**: Docker, CI/CD and infrastructure automation (as the project evolves).
+- 🧪 **Labs**: hands-on exercises with commands and expected results.
+- 🔥 **Troubleshooting scenarios**: deliberate failures to investigate and fix.
 
-> **Requirements:** Scripts and configurations primarily target Linux servers (Debian/Ubuntu, unless stated otherwise in the resource). You don't need Linux on your personal computer: a VPS or virtual machine is enough, whether you're using Windows, macOS or Linux.
+Across the whole infrastructure path: Linux, networking, web servers, server security, databases, operations, cloud and DevOps.
 
-**How each resource is delivered:**
+> **Requirements:** Labs and configurations primarily target Linux servers (Debian/Ubuntu, unless stated otherwise in the lab). You don't need Linux on your personal computer: a VPS or virtual machine is enough, whether you're using Windows, macOS or Linux.
+
+**How each lab is delivered:**
 
 | What you get | What it helps you do |
 |---|---|
-| ✅ Working scripts and configurations | Start from a functional base instead of an empty file |
+| ✅ Working examples | Start from a functional base instead of an empty file |
 | 💬 Explanatory comments | Understand what to change and what to leave alone |
 | 🧪 Expected results | Verify that the configuration works |
 | 🔧 Rollback instructions | Know how to safely undo changes |
 | 🐧 Tested distribution and version | Check compatibility before running anything |
 
-**Coming soon: Premium production-ready resources**
+**Coming soon: Production-ready packs**
 
-Premium packs of scripts and configurations designed for real-world production environments: administration task automation, deployments, server hardening, service management and infrastructure operations.
+Complete, tested packs for real-world servers, with full documentation: administration task automation, deployments, server hardening, service management and infrastructure operations. They are built to save you hours of work, while the labs here teach you how everything works.
 
 Each pack will include technical documentation, configuration instructions and usage recommendations.
+
+<!-- When the Gumroad page exists, add here:
+👉 [Get the packs on Gumroad](https://YOUR-NAME.gumroad.com)
+-->
 
 ## 🧰 Topics
 
@@ -92,6 +95,6 @@ The goal is simple: understand the concepts, apply them and learn how to trouble
 Want to explore Linux, networking, server administration and DevOps?
 
 - 📖 **Dev.to**: [Read my articles](https://dev.to/heavylock).
-- 💻 **GitHub**: Explore repositories, scripts, configurations and practical labs.
+- 💻 **GitHub**: Explore repositories, labs and troubleshooting scenarios.
 
-New articles and technical resources are added as HEAVYLOCK grows.
+New articles and labs are added as HEAVYLOCK grows.
